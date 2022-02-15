@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #131313;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #d5d4d4;
+    text-align: center;
+}
+
+.header img {
+    width: 50px;
+}
+
+nav {
+    width: 20%;
+}
+
+.main {
+    padding: 100px 20px;
+    font-size: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #d5d4d4;
+}
+
+.nav, .section, .aside {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.section {
+    padding-right: 100px;
+    width: 60%;
+}
+
+.aside {
+    width: 20%;
+}
+
+.section article:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+h1 {
+    font-size: 76px;
+    margin: 0 0 36px;
+}
+
+.job-card {
+    background-color: #d5d4d4;
+    color: #131313;
+    padding: 30px;
+}
+
+.footer {
+    padding: 30px 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.section-about, .section-campaign {
+    width: 80%; 
+    background-size: cover; 
+}
+
+.section-about {
+    padding: 160px 50px 20px;
+    background-image: url("../images/about-us-main.jpg"); 
+}
+
+.section-campaign {
+    background-image: url("../images/brand-campaign.jpg");
+    padding: 400px 50px;
+}
